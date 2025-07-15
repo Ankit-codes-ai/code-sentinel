@@ -17,12 +17,12 @@ It performs multi-level repo review by generating logical flowcharts, scanning f
 
 ## 📽️ Demo Video
 
-▶️ [Watch Demo Video](https://[Your Google Drive Video Link])  
+▶️ Watch Demo Video- https://drive.google.com/file/d/1JKumV9hcOd-1TsRi7INEAqWJmrLdz1W1/view?usp=sharing
 *(Note: This is a rough cut demo — a polished version with narration/UI is coming soon)*
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠 Tech Stack
 
 - **Python**
 - **LangChain** (Agent framework)
@@ -32,7 +32,7 @@ It performs multi-level repo review by generating logical flowcharts, scanning f
 
 ---
 
-## 📁 Folder Structure
+##  Folder Structure
 
 ```bash
 src/
@@ -43,5 +43,59 @@ src/
 ├── api_config.py
 main.py
 requirements.txt
+
+
+Perfect, Ankit — here’s the **remaining part of the `README.md` in Markdown format**, ready for direct copy-paste.
+
+Just add this **below your “Folder Structure” section**.
+
+---
+
+````markdown
+---
+
+**How to Run**
+
+```bash
+# Step 1: Install dependencies
+pip install -r requirements.txt
+
+# Step 2: Run the main pipeline
+python main.py
+````
+
+Make sure to configure your OpenAI API key inside `src/api_config.py` or your `.env`.
+
+---
+
+##  Sample Outputs (coming soon)
+
+* `outputs/flowchart.svg` – Logic flowchart of the code
+* `outputs/analysis_report.pdf` – Code issue summary
+* `test-project/` – Sample repo for testing
+
+---
+
+ **Future Improvements**
+
+
+* Integrate **GitHub webhook** for real-time analysis
+* Add **Slack or email notifications** for reviewer summary
+* Convert to **microservice or SaaS agent**
+* Fine-tune **auto-remediation logic** using more complex datasets
+
+---
+
+## 👤 Author
+
+**Ankit Sharma**
+🛠️ AI Engineer | GenAI Tool Builder | Intelligent Developer Tools
+🔗 LinkedIn- www.linkedin.com/in/ankit-sharma-dev2226
+
+
+
+ *If you're a startup, team lead, or hiring manager exploring agentic AI tooling — I’d love to connect or collaborate.*
+  Open to freelance, contract, or full-time GenAI engineering roles.
+
 
 
