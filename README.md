@@ -1,28 +1,28 @@
 # code-sentinel
-# 🔍 Code Sentinel – GenAI-Powered Code Review Agent
+#  Code Sentinel – GenAI-Powered Code Review Agent
 
 **Code Sentinel** is an intelligent, agentic system designed to analyze entire code repositories.  
 It performs multi-level repo review by generating logical flowcharts, scanning for security and functionality issues, and suggesting auto-remediations — powered by GenAI.
 
 ---
 
-## 🚀 Features
+##  Features
 
-- 📂 **Repo Tree Generator** – Parses and structures nested code folders, intelligently ignoring noise
-- 📈 **Flowchart Generator** – Visualizes logical code flow to help reviewers understand architecture
-- 🛡️ **Code Analyzer** – Performs multiple checks (security, code smells, function audit)
-- 🔧 **Auto Remediator** – Suggests and applies fixes using LLM-based recommendations
+-  **Repo Tree Generator** – Parses and structures nested code folders, intelligently ignoring noise
+-  **Flowchart Generator** – Visualizes logical code flow to help reviewers understand architecture
+-  **Code Analyzer** – Performs multiple checks (security, code smells, function audit)
+-  **Auto Remediator** – Suggests and applies fixes using LLM-based recommendations
 
 ---
 
-## 📽️ Demo Video
+##  Demo Video
 
 ▶️ Watch Demo Video- https://drive.google.com/file/d/1JKumV9hcOd-1TsRi7INEAqWJmrLdz1W1/view?usp=sharing
 *(Note: This is a rough cut demo — a polished version with narration/UI is coming soon)*
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 - **Python**
 - **LangChain** (Agent framework)
@@ -44,15 +44,6 @@ src/
 main.py
 requirements.txt
 
-
-Perfect, Ankit — here’s the **remaining part of the `README.md` in Markdown format**, ready for direct copy-paste.
-
-Just add this **below your “Folder Structure” section**.
-
----
-
-````markdown
----
 
 **How to Run**
 
